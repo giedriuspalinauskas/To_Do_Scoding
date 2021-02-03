@@ -1,6 +1,6 @@
 <?php
 //PHP konstantos (prisijungimas prie duomenu bazes)
-define( 'DB_PAVADINIMAS',      'to_do');
+define( 'DB_PAVADINIMAS',      'scoding');
 define( 'DB_TIPAS',            'localhost');
 define( 'MYSQL_USER_VARDAS' ,   'root');
 define( 'MYSQL_USER_PASS' ,     'root');

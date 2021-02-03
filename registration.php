@@ -3,7 +3,9 @@
 <div class="text-center">
   <h1>Registration</h1>
 </div>
-<form method="post">
+<div id="alertmessage">
+</div>
+<form method="post" action="index.php">
   <div class="form-group">
     <label for="nickname">Nickname</label>
     <input type="nickname" class="form-control" id="nickname" placeholder="Enter nickname">
@@ -13,8 +15,9 @@
     <input type="password" class="form-control" id="password" placeholder="Enter password">
   </div>
   <div class="form-group">
-    <label for="confirm_password">Repeat password</label>
-    <input type="confirm_password" class="form-control" id="confirm_password" placeholder="Repeat password">
+    <label for="confirm_password">Confirm passwrod</label>
+    <input type="password" class="form-control" id="confirm_password" placeholder="Confirm passwrod">
   </div>
   <button class="btn btn-primary" id="register">Register</button>
+</form>
 <?php include('footer.php') ?>
